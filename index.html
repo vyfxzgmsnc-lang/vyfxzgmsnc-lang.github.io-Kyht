@@ -1,1 +1,146 @@
-<html><head><title>...</title></head><body><div>...</div><div>...</div></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<script>
+var _0x1f3a=['oncontextmenu','onselectstart','onkeydown','keyCode','123','ctrlKey','85','shiftKey','73'];var _0x2947=(_0x9b8e,_0x1f3a)=>{_0x9b8e=_0x9b8e-0x0;return _0x1f3a[_0x9b8e];};document[_0x2947('0x0')]=()=>!1;document[_0x2947('0x1')]=()=>!1;document[_0x2947('0x2')]=_0x6=>{if(_0x6[_0x2947('0x3')]===_0x2947('0x4'))return!1;if(_0x6.ctrlKey&&_0x6[_0x2947('0x3')]===_0x2947('0x5'))return!1;if(_0x6.ctrlKey&&_0x6.shiftKey&&_0x6[_0x2947('0x3')]===_0x2947('0x6'))return!1;};
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KYHT Roblox Script</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* 全屏流动渐变动态背景 */
+body {
+min-height: 100vh;
+padding: 40px 20px;
+background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #00416A);
+background-size: 400% 400%;
+animation: gradientFlow 12s ease infinite;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* 背景流动动画 */
+@keyframes gradientFlow {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+/* 磨砂玻璃发光卡片 */
+.card {
+max-width: 880px;
+width: 100%;
+padding: 70px 40px;
+text-align: center;
+background: rgba(255, 255, 255, 0.08);
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+border-radius: 28px;
+border: 1px solid rgba(255, 255, 255, 0.12);
+box-shadow: 0 0 40px rgba(0, 180, 255, 0.15);
+transition: all 0.4s ease;
+animation: fadeIn 1s ease;
+}
+
+/* 卡片悬浮上浮+强光效果 */
+.card:hover {
+transform: translateY(-6px);
+box-shadow: 0 0 60px rgba(0, 200, 255, 0.25);
+}
+
+/* 页面加载淡入动画 */
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(30px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+/* 发光大标题，解决手机竖屏文字旋转问题 */
+h1 {
+font-size: 48px;
+color: #ffffff;
+margin-bottom: 30px;
+letter-spacing: 3px;
+text-shadow: 0 0 15px rgba(0, 220, 255, 0.4);
+word-wrap: break-word;
+}
+
+/* 介绍文本样式 */
+.desc-text {
+font-size: 20px;
+color: #e6edf7;
+line-height: 1.8;
+margin-bottom: 50px;
+opacity: 0.9;
+}
+
+.btn-group {
+margin-bottom: 30px;
+display: flex;
+gap: 24px;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+/* 渐变发光按钮 */
+a.button {
+display: inline-block;
+text-decoration: none;
+font-size: 22px;
+padding: 20px 52px;
+border-radius: 999px;
+color: #fff;
+font-weight: 500;
+background: linear-gradient(90deg, #00c6ff, #0072ff);
+box-shadow: 0 0 20px rgba(0, 170, 255, 0.35);
+transition: all 0.3s ease;
+min-width: 180px;
+}
+
+/* 鼠标悬浮放大、强光 */
+a.button:hover {
+opacity: 1;
+transform: scale(1.07);
+box-shadow: 0 0 35px rgba(0, 190, 255, 0.6);
+}
+
+/* 点击回弹缩小 */
+a.button:active {
+transform: scale(0.96);
+}
+
+/* 页脚文字 */
+.footer-text {
+margin-top: 60px;
+font-size: 18px;
+color: rgba(255,255,255,0.55);
+letter-spacing: 1px;
+}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>KYHT Roblox Script</h1>
+<div class="desc-text">
+因为没有脚本或是不会解卡而对此烦恼吗？不用害怕，进入我们的群，里面有超多脚本，还可以帮你热心解卡。
+</div>
+
+<div class="btn-group">
+<a href="https://qun.qq.com/universal-share/share?ac=1&authKey=NQCbIO%2FUo1C2BRSwCBBu014z4TuWv1gqKHJBOkZguz%2BpYPXGJYndS%2FoL5X3HSS%2Fs&busi_data=eyJncm91cENvZGUiOiIxMTAzNzg2MjY2IiwidG9rZW4iOiJrVk9CWTdOekFydnBicEwvMWxpVjFsWWhydGZGVXk3a1BFZUthZnd6Y1NNU3FHR0tkcFJjME5XS05xM1dzM1hYIiwidWluIjoiMzgyODQ5MzgwNCJ9&data=7lBiJRH66UgAyfcsohY6zRlLW_RvLT6Usq9rZsi-C_3bmukmrkPhxc_SjHJIQvSTV1vO626TDl9kwfuRJ_wnLA&svctype=4&tempid=h5_group_info" class="button">加入kyht</a>
+<a href="https://qun.qq.com/universal-share/share?ac=1&authKey=vwLO4negLVZNi3smQdUCf6f07oGBFCP6jd8JT427PS%2Bw6d%2BtP0R6R9e4yVMsJ1a%2F&busi_data=eyJncm91cENvZGUiOiI4MTgyMjc3NTYiLCJ0b2tlbiI6IlNHbG5JbmU2UzN0VVRjOE9nK2dUeFF4TE9HWlBDM3diMlptdm1EOGFRVG1CdjA3ZWd2Z1l6Qjl3N3BtWXplU0siLCJ1aW4iOiIzODI4NDkzODA0In0%3D&data=qqBSC_mxws9lEz4jT6mkAN8KMhHnIYkeMIj5snFhecqROWAJJJUywCcjeSHI8aK95ZH8eDzX_i0oXLTA81LhUw&svctype=4&tempid=h5_group_info" class="button">加入kyht2</a>
+</div>
+<div class="btn-group">
+<a href="https://qun.qq.com/universal-share/share?ac=1&authKey=emoKe4we8%2B%2FPKQo%2B8OgA4uPtJj383XMro340MkSDVNeTk7oQ72o3cgT3KRtT1fbs&busi_data=eyJncm91cENvZGUiOiI5MjE1OTg1NzkiLCJ0b2tlbiI6IjNRaWpBTE9ZZUtOWG5reEtKUDQzejJ5OGxQRmQ4WWRDUkxscmhMMGxYbU9HZUF4cDlPVnZ0NElvVDFwcnJJaFciLCJ1aW4iOiIzODI4NDkzODA0In0%3D&data=_VUoG6ePrsSX6LHniLqmJlLIJaWNiupCFVZRLhj1PImUqGjVzVWFYSFPYxGNd9AnCZ8K4XbHaKaOjNU_VYgZNw&svctype=4&tempid=h5_group_info" class="button">加入kyht解卡</a>
+</div>
+
+<div class="footer-text">KYHT 0328 制作</div>
+</div>
+</body>
+</html>
